@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.operationalStandardsSection {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+  padding: 2rem 0;
+}
+
+.operationalStandardsSection:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.03;
+}
+
+.operationalStandardsSection-header {
+  padding: 1rem;
+}
+
+.operationalStandardsSection-header h1 {
+  font-family: "Gabriola";
+  color: #804e05d3;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.operationalStandardsSection-header p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.operationalStandardsSection-content {
+  padding: 1rem;
+}
+
+.operationalStandardsSection-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.operationalStandardsSection-left {
+  width: 50%;
+  margin: auto;
+}
+
+.operationalStandardsSection-left ul li {
+  padding: .2rem 0;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.operationalStandardsSection-left h1 {
+  font-family: "Gabriola";
+  color: #804e05d3;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  padding: .5rem 0;
+  text-align: left;
+}
+
+.operationalStandardsSection-right {
+  width: 500px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+}
+
+.operationalStandardsSection-right img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.operationalStandardsSection-footer {
+  padding: 1rem;
+}
+
+.operationalStandardsSection-footer h1 {
+  font-family: "Gabriola";
+  color: #804e05d3;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: .5rem 0;
+  text-align: left;
+}
+
+
+.operationalStandardsSection-footer ul li {
+  font-size: 15px;
+  text-align: justify;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .operationalStandardsSection-flex {
+    flex-wrap: wrap;
+  }
+  
+  .operationalStandardsSection-left {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .operationalStandardsSection-right {
+    width: 100%;
+    margin: auto;
+  }
+  
+
+
+  }
+
+

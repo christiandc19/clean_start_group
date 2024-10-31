@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.marketResearchSection {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+  padding: 2rem 0;
+}
+
+.marketResearchSection:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.03;
+}
+
+.marketResearchSection-header {
+  padding: 1rem;
+}
+
+.marketResearchSection-header h1 {
+  font-family: "Gabriola";
+  color: #804e05d3;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.marketResearchSection-content {
+  padding: 1rem;
+}
+
+.marketResearchSection-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.marketResearchSection-left {
+  width: 50%;
+  margin: auto;
+}
+
+.marketResearchSection-left ul li {
+  padding: .2rem 0;
+}
+
+.marketResearchSection-left h1 {
+  font-family: "Gabriola";
+  color: #804e05d3;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  padding: .5rem 0;
+  text-align: left;
+}
+
+.marketResearchSection-right {
+  width: 500px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+}
+
+.marketResearchSection-right img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.marketResearchSection-footer {
+  padding: 1rem;
+}
+
+.marketResearchSection-footer h1 {
+  font-family: "Gabriola";
+  color: #804e05d3;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: .5rem 0;
+  text-align: left;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .marketResearchSection-flex {
+    flex-wrap: wrap;
+  }
+  
+  .marketResearchSection-left {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .marketResearchSection-right {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .marketResearchSection-header p {
+    text-align: center;
+  }
+
+  }
+
+

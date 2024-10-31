@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.facilitatingSection {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+  padding: 2rem 0;
+}
+
+.facilitatingSection:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.03;
+}
+
+.facilitatingSection-header {
+  padding: 1rem;
+}
+
+.facilitatingSection-header h1 {
+  font-family: "Gabriola";
+  color: #804e05d3;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.facilitatingSection-header p {
+  font-size: 14px;
+}
+
+.facilitatingSection-content {
+  padding: 1rem;
+}
+
+.facilitatingSection-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.facilitatingSection-left {
+  width: 50%;
+  margin: auto;
+}
+
+.facilitatingSection-left ul li {
+  padding: .2rem 0;
+}
+
+.facilitatingSection-left h1 {
+  font-family: "Gabriola";
+  color: #804e05d3;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  padding: .5rem 0;
+  text-align: left;
+}
+
+.facilitatingSection-right {
+  width: 500px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+}
+
+.facilitatingSection-right img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.facilitatingSection-footer {
+  padding: 1rem;
+}
+
+.facilitatingSection-footer h1 {
+  font-family: "Gabriola";
+  color: #804e05d3;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: .5rem 0;
+  text-align: left;
+}
+
+
+.facilitatingSection-footer p {
+  font-size: 14px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .facilitatingSection-flex {
+    flex-wrap: wrap;
+  }
+  
+  .facilitatingSection-left {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .facilitatingSection-right {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .facilitatingSection-header p {
+    text-align: justify;
+  }
+
+  .facilitatingSection-left p{
+    text-align: justify;
+  }
+
+  .facilitatingSection-footer p 
+  {
+    text-align: justify;
+  }
+
+  }
+
+
